@@ -12,6 +12,7 @@ public class Zadatak4 {
         int b = s.nextInt();
         if (a>b) {
             System.out.println("B je manje od A");
-        }
+        } else {
+            System.out.println("A je manje od b");}
     }
 }
