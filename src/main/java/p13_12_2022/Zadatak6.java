@@ -11,8 +11,9 @@ public class Zadatak6 {
 //        Povrsina kruga je 28.26
         int a = 5;
         double pi = 3.14;
+        int r = 3;
         int povrsinaKvadrata = a*a;
-        double povrsinaKruga = a*pi;
+        double povrsinaKruga = (r*r)*pi;
         System.out.println("Povrsina kvadrata je " + povrsinaKvadrata);
         System.out.println("Povrsina kruga je " +  povrsinaKruga);
 
