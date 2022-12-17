@@ -7,10 +7,10 @@ public class Zadatak4 {
         Scanner s = new Scanner(System.in);
         System.out.println("Unesite jačinu zvuka od 0 do 10: ");
         int jacinaZvuka = s.nextInt();
-        System.out.println("<");
+        System.out.print("<");
 
         for (int i = 0 ; i < jacinaZvuka; i++){
-        System.out.println("|");}
+        System.out.print("|");}
 
 
     }
