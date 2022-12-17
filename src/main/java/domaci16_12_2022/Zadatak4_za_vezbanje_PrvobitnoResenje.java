@@ -2,7 +2,7 @@ package domaci16_12_2022;
 
 import java.util.Scanner;
 
-public class Zadatak4_za_vezbanje {
+public class Zadatak4_za_vezbanje_PrvobitnoResenje {
     public static void main(String[] args) {
         //  (Za vezbanje) Napisati program koji ucitava dimenziju table i stampa je na ekranu.
         Scanner s = new Scanner(System.in);
