@@ -18,7 +18,7 @@ public class Zadatak4 {//Napisati program koji ucitava niz A duzine N i broj X.
         }
         System.out.println("Unesite x");
         int x = s.nextInt();
-
+        System.out.print("Elementi niza koji su jednaki broju X imaju indexe: ");
         for (int i = 0; i < a.size(); i++){
             a.get(i);
             if (a.get(i) == x){

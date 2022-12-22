@@ -16,6 +16,7 @@ public class Zadatak3 {//Napisati program koji ucitava niz A duzine N,
             int broj = s.nextInt();
             a.add(broj);
         }
+        System.out.print("Brojevi veci od nule su: ");
         for (int i = 0; i < a.size(); i++) {
             a.get(i);
             if (a.get(i) > 0) {System.out.print (a.get(i) + ", ");
