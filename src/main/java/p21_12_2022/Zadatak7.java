@@ -14,15 +14,6 @@ public class Zadatak7 {
         //1,2,3,4,7,6,5,8,9,10
         Random random = new Random();
         ArrayList<Integer> brojevi = new ArrayList<Integer>();
-        brojevi.add(1);
-        brojevi.add(2);
-        brojevi.add(7);
-        brojevi.add(6);
-        brojevi.add(33);
-        brojevi.add(21);
-        brojevi.add(12);
-        brojevi.add(11);
-        brojevi.add(9);
         int x = random.nextInt(10);
         int y = random.nextInt(10);
 
