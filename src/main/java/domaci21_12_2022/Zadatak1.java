@@ -1,4 +1,4 @@
-package Domaci21_12_2022;
+package domaci21_12_2022;
 
 import java.util.ArrayList;
 import java.util.Scanner;

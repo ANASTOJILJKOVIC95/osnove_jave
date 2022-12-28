@@ -1,8 +1,8 @@
-package Domaci21_12_2022;
+package domaci21_12_2022;
 
 import java.util.Scanner;
 
-public class Zadatak_sa_slacka_for_petlja {
+public class Zadatak_sa_slacka_while_petlja {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Unesite velicinu fajla:");
@@ -11,15 +11,15 @@ public class Zadatak_sa_slacka_for_petlja {
         int procenat= 0;
         StringBuilder unos = new StringBuilder();
 
-        for (int i = 0; i < fajl; i++){
+        while (procenat < 100){
             System.out.println("Unesite blok");
             String blok = s.next();
             unos = unos.append(blok);
             velicina = velicina + blok.length();
             procenat = (velicina * 100)/fajl;
             System.out.println("Downloaded: " + procenat + "%");
-            if (procenat > 100){ break;}
         }
-        System.out.println("Sadrzaj skinutog fajla" + unos);
+        System.out.println("Sadrzaj skinutog fajla: " + unos);
     }
 }
+
