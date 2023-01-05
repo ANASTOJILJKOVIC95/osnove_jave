@@ -30,9 +30,9 @@ public class Igraj {
                 polje = s.nextInt();
             }
             if (igraj.getNaPotezu().equals("X")) {
-                igraj.setUnosXO("X");
+                igraj.setUnos("X");
             } else if (igraj.getNaPotezu().equals("O")) {
-                igraj.setUnosXO("O");
+                igraj.setUnos("O");
             }
             igraj.odigrajPotez(polje);
 

@@ -30,8 +30,8 @@ public class XOtabla {
     public void setImeIgracaO(String imeIgracaO){
         this.imeIgracaO = imeIgracaO;
     }
-    public void setUnosXO (String unosIgraca){
-        this.unos = unosIgraca;
+    public void setUnos (String unos){
+        this.unos = unos;
     }
     public void pokreniIgru(){
         this.polje1  = " ";
