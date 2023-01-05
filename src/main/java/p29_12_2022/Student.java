@@ -3,7 +3,7 @@ package p29_12_2022;
 public class Student {
     private String ime;
     private String prezime;
-    private int index;
+    private  int index;
     private boolean budzet;
 
     public String getIme (){
