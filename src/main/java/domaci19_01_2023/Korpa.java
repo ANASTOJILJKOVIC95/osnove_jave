@@ -19,10 +19,11 @@ public class Korpa {
         }
     }
     private double cenaSaPoputstom (double popust){
+        double suma = 0;
         for (int i = 0; i <ambalaze.size() ; i++) {
-           return this.ambalaze.get(i).cena() -  (this.ambalaze.get(i).cena() / 100 * popust);
+           suma = suma + this.ambalaze.get(i).cena() -  (this.ambalaze.get(i).cena() / 100 * popust);
 
-        } return 0;
+        } return suma;
     }
 
     public double racun (SuperKartica a){

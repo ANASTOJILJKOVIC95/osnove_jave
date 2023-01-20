@@ -19,5 +19,8 @@ public class Zadatak1 {
         korpa.izbaciIzKorpe("584309");
 
         System.out.println("Vas racun je " + korpa.racun(a));
+
+        System.out.println("Cene sa popustom su " );
+
     }
 }
