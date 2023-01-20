@@ -19,8 +19,8 @@ public class TimeControl extends Control{
     @Override
     public void izvrisAkciju(VideoPlayer a) {
         if (premotaj){ a.setTrenutnoVremeVidea(a.getTrenutnoVremeVidea() + 15);
-        if (a.getTrenutnoVremeVidea() > a.getDuzinaVide())
-        a.setTrenutnoVremeVidea(a.getDuzinaVide());}
+        if (a.getTrenutnoVremeVidea() > a.getDuzinaVidea())
+        a.setTrenutnoVremeVidea(a.getDuzinaVidea());}
         else {a.setTrenutnoVremeVidea(a.getTrenutnoVremeVidea() - 15);
             if (a.getTrenutnoVremeVidea() < 0) {
                 a.setTrenutnoVremeVidea(0);}

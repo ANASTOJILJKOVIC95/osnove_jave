@@ -13,6 +13,22 @@ public class Zadatak1 {
         ac.izvrisAkciju(a);
         qoc.izvrisAkciju(a);
 
+        tc.setPremotaj(false);
+
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+        tc.izvrisAkciju(a);
+
+        qoc.setBrzinaInterneta(100);
+
+        qoc.izvrisAkciju(a);
+
         a.stampaj();
 
 

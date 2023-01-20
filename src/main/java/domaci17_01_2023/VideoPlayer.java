@@ -3,17 +3,17 @@ package domaci17_01_2023;
 
 
 public class VideoPlayer {
-    private int duzinaVide;
+    private int duzinaVidea;
     private int trenutnoVremeVidea;
     private int jacinaZvuka;
     private int kvalitetVidea;
 
-    public int getDuzinaVide() {
-        return duzinaVide;
+    public int getDuzinaVidea() {
+        return duzinaVidea;
     }
 
-    public void setDuzinaVide(int duzinaVide) {
-        this.duzinaVide = duzinaVide;
+    public void setDuzinaVidea(int duzinaVide) {
+        this.duzinaVidea = duzinaVidea;
     }
 
     public int getTrenutnoVremeVidea() {
@@ -40,8 +40,8 @@ public class VideoPlayer {
         this.kvalitetVidea = kvalitetVidea;
     }
 
-    public VideoPlayer(int duzinaVide, int trenutnoVremeVidea, int jacinaZvuka, int kvalitetVidea) {
-        this.duzinaVide = duzinaVide;
+    public VideoPlayer(int duzinaVidea, int trenutnoVremeVidea, int jacinaZvuka, int kvalitetVidea) {
+        this.duzinaVidea = duzinaVidea;
         this.trenutnoVremeVidea = trenutnoVremeVidea;
         this.jacinaZvuka = jacinaZvuka;
         this.kvalitetVidea = kvalitetVidea;
